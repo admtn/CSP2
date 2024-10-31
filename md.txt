@@ -1,0 +1,5 @@
+javac src/client/Client.java
+javac src/serverUtil/*.java src/staff/*.java src/server/Server.java
+
+java server.Server 9876
+java client.Client localhost 9876
